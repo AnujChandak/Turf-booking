@@ -1,0 +1,43 @@
+.contactUs {
+    color: black;
+  }
+  .contactUs > h2 {
+    margin-top: 80px;
+    margin-left: 550px;
+  }
+
+  body
+  {
+    background-image: url("images\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .soleimg > img {
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    padding-left: 550px;
+    padding-right: 550px;
+  }
+  
+  .contactUs__form {
+    display: grid;
+    align-items: center;
+    margin: 250px;
+    margin-left: 550px;
+    margin-top: 20px;
+    height: 40vh;
+    color: black;
+  }
+  
+  .contactUs__form > textarea{
+    width: 350px;
+  }
+  input 
+  {
+    margin-top: 20px;
+  width:50%;
+  }
+  .sendButton{
+    margin-top: 60px;
+  }

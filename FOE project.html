@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name ="viewport" content="widht=device-width, initial-scalee=1.0">
+        <title>Book your TURF!</title>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Custon css file link -->
+    <link rel="stylesheet" href="website.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#dark-mode").click(function(){
+                $("body").css({"background-color": "black"});
+                $("header").css({"background-color" : "#322F2F"});
+            });
+            $("#light-mode").click(function(){
+                $("body").css({"background-color" : "white"});
+                $("header").css({"background-color" : "white"});
+            });
+        });
+    </script>
+    </head>
+    <body>
+<!--HEADER SECTION STARTS-->
+<header>
+    <a href="#" class="logo"><i class="fas fa-volleyball-ball"> BookMyTurf</i></a>
+
+    <nav class="navbar">
+
+    <a class="active" href="FOE project.html">HOME</a>
+	
+    <a href="Review_try.php">REVIEW</a>
+
+    <a href="http://localhost/FOE_Project/FOE_3.php">BOOK NOW</a>
+
+    <a href="FOE about us.html">ABOUT US</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-moon" id="dark-mode"></i>
+        <i class="fas fa-sun" id="light-mode"></i>
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        
+    </div>
+</header>
+<!--HEADER SECTION ENDS-->
+
+<!--search form -->
+<form action="FOE_3.php">
+
+    <i class="fas fa-times" id="close"></i>
+<!--home section starts-->
+<section class="home" id="home">
+
+<div class="container">        
+    <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="FOE 5.jpg" width="500" height="640">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    
+                    <img src="FOE gif.gif" width="500" height="640">
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="FOE pic1.jpg" width="500" height="640">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="FOE pic2.jpg" width="500" height="640">
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+</div>
+
+</section>
+
+</form>
+<!--home section ends-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--Custom js file link-->
+    <script src="website.js"></script>    
+    </body>
+</html>
